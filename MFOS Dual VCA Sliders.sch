@@ -13467,6 +13467,7 @@ Beckman Helitrim 64</description>
 <text x="-1.651" y="-0.508" size="1.27" layer="21" ratio="10">3</text>
 <text x="0.762" y="-0.508" size="1.27" layer="21" ratio="10">1</text>
 <text x="-0.127" y="-2.413" size="1.27" layer="51" ratio="10">3</text>
+<pad name="P$1" x="0" y="0" drill="0.8" shape="square"/>
 </package>
 <package name="B64Y">
 <description>&lt;b&gt;POTENTIOMETER&lt;/b&gt;&lt;p&gt;
@@ -14817,7 +14818,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="E" pad="E"/>
-<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="G$1" pin="S" pad="P$1 S"/>
 </connects>
 <technologies>
 <technology name=""/>
